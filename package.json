@@ -1,14 +1,31 @@
 {
   "name": "advanced-cache",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A high-performance caching solution with multi-layer caching, cache invalidation strategies, and advanced features.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hemant-Bhardwaj/advanced-cache-js.git"
+  },
+  "keywords": [
+    "cache",
+    "caching",
+    "redis",
+    "memcached",
+    "in-memory",
+    "persistent",
+    "multi-layer",
+    "performance"
+  ],
+  "author": "Hemant Bhardwaj hbhardwaj.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hemant-Bhardwaj/advanced-cache-js/issues"
+  },
+  "homepage": "https://github.com/Hemant-Bhardwaj/advanced-cache-js#readme",
   "dependencies": {
     "express": "^4.19.2",
     "lru-cache": "^10.2.2",
