@@ -1,5 +1,5 @@
 {
-  "name": "advanced-cache",
+  "name": "advanced-cache-js",
   "version": "1.0.0",
   "description": "A high-performance caching solution with multi-layer caching, cache invalidation strategies, and advanced features.",
   "main": "src/index.js",
